@@ -1,0 +1,25 @@
+body{
+ background-color: antiquewhite;
+ color: black;
+
+}
+
+
+img{
+    border-radius: 50px;
+    width:250px;
+    height: 200px;
+  
+ 
+}
+
+.navbar{
+    justify-content: center;
+    background-color: rgb(230, 175, 103);
+}
+.botao{
+    justify-content: center;
+   align-items: center;
+   display: flex;
+   color: rgb(233, 190, 134);
+}
