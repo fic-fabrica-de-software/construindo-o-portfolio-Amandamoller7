@@ -23,3 +23,15 @@ img{
    display: flex;
    color: rgb(233, 190, 134);
 }
+
+.Inicio a{
+    color: rgb(242, 177, 93);
+    cursor:default;
+}
+
+.luz{
+    position:fixed;
+    width:100%;
+    height:100%;
+    background: radial-gradient(circle at 400px 300px, transparente, black 20%);
+}
