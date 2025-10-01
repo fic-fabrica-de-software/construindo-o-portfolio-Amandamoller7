@@ -17,12 +17,29 @@ img{
     justify-content: center;
     background-color: rgb(230, 175, 103);
 }
-.botao{
-    justify-content: center;
+
+/*
+  .github-btn {
+   border-radius: 1rem;
+   box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
+   padding: 0.5rem 1rem;
+   display: inline-flex;
    align-items: center;
-   display: flex;
-   color: rgb(233, 190, 134);
+   border: 2px solid #333;
+   background-color: white;
+   transition: background-color 0.3s;
+ }
+
+ .github-btn:hover {
+  background-color: #f6fcd9;
 }
+
+ .github-btn i {
+     font-size: 1.5rem;
+     margin-right: 0.5rem;
+     color: black;
+ }
+     */        
 
 .Inicio a{
     color: rgb(242, 177, 93);
