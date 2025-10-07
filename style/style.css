@@ -28,13 +28,23 @@ body{
 
 
 
-.tremalizes{
+.projeto-a{
         display: flex;
         
        
 }
 
+.projeto-b{
+    justify-content: baseline;
+}
+
 .tremalize{
+        width: 100px;
+        height: 100px;
+        border-radius: 10%;
+}
+
+.abraco{
         width: 100px;
         height: 100px;
         border-radius: 10%;
