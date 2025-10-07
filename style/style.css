@@ -59,3 +59,10 @@ body{
 .btn btn-light{
     border-radius: 15%;
 }
+
+.dourado{
+   background: #d6a320;
+   background: linear-gradient(90deg,rgba(214, 163, 32, 1) 0%, rgba(235, 120, 33, 1) 51%, rgba(255, 221, 0, 1) 100%);
+   color: white;
+
+}
