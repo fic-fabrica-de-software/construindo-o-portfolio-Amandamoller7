@@ -1,14 +1,45 @@
 body{
- background-color: antiquewhite;
- color: black;
- font-family: 'Courier New', Courier, monospace;
+ background-color: #d6b2c8;
+ color: rgb(255, 249, 249);
+font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
-/* Fundo da tela inicial*/
-.luz{
-  background:radial-gradient( circle 100px, rgb(250, 250, 149), black)
+/* Icones e borda da barra de pesquisa*/
+.barra-pesquisa{
+   border: 5px solid #ffa4b1;
+   background-color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border: radius 10px; 
+   width: 39%;
+   height: 40%;
 }
+.x{
+  width: 28px;
+  height: 28px;
+}
+
+.lupa{
+    float: left;
+    width: 42px;
+    height: 42px;
+}
+
+.textobarra{
+    float: left;
+    background-color: transparent;
+   font-size: 50px;
+   border: none;
+   height: 55px;
+   width: 75%;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+
+
+
 
 .fotoPerfil{
     border-radius: 200px;
