@@ -1,3 +1,4 @@
+/* Base*/
 body{
  background-color: #d6b2c8;
  color: rgb(255, 249, 249);
@@ -5,7 +6,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 }
 
-/* Icones e borda da barra de pesquisa*/
+/*Barra de pesquisa*/
 .barra-pesquisa{
    border: 5px solid #ffa4b1;
    background-color: white;
@@ -35,32 +36,9 @@ font-family: Georgia, 'Times New Roman', Times, serif;
    height: 55px;
    width: 75%;
    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+
 }
 
-
-
-
-
-.fotoPerfil{
-    border-radius: 200px;
-    width:15%;
-    height: 15%;
-    
-}
-
-.navbar{
-    justify-content: center;
-    background-color: rgb(230, 175, 103);
-   
-}
-
-/*
-.flex{
-    display: flex;
-    justify-content: center;
-    align-items: center;  
-}
-*/
 
 /* Usada pra centralizar o botão da tela inical*/
 .meio{
@@ -70,17 +48,24 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top: 24%;
 }
 
-/* Botoes*/
-.botoes{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 1%;
-
+/*fundo do site*/ 
+.container{
+    position: relative;
+    display: inline-block;   /*Para que a div se molde a imagem.*/
 }
-.btn btn-light{
-    border-radius: 15%;
-   
+.fundo{
+    padding-top: 7%;
+    width: 1600px;
+    height:900px;
+    padding-left: 20%;
+}
+
+.neuronio{
+    position: absolute;
+    width: 150px;
+    height: 90px;
+    top:170px;
+    left: 750px;
 }
 
 /* Espaço para todos os projetos*/
@@ -156,19 +141,4 @@ font-family: Georgia, 'Times New Roman', Times, serif;
  
 }
 
- /*Imagens dos icones*/
-.icons{
-    width: 30px;
-    height:30px;
-    
-}
-
-
-/* Fundo do footer*/
-.dourado{
-   background: #d6a320;
-   background: linear-gradient(90deg,rgba(214, 163, 32, 1) 0%, rgba(235, 120, 33, 1) 51%, rgba(255, 221, 0, 1) 100%);
-   color: white;
-
-}
-
+ 
