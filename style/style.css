@@ -60,13 +60,39 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     padding-left: 20%;
 }
 
-.neuronio{
+.neuronio1{
     position: absolute;
     width: 150px;
     height: 90px;
     top:170px;
     left: 750px;
+    animation: go-back 2s infinite alternate-reverse;
+   
 }
+/*Animando o neuronio
+ @keyframes go-back{
+ from{
+    transform: translateX(50px);    
+ }  
+ to{
+    transform: translateY(30px)
+ }  
+
+ }
+ */
+
+ /*Animando o neuronio que gira*/
+ @keyframes girar{
+    from{
+    transform: rotate(0deg);    
+ }  
+ to{
+    transform: rotate(360deg)
+ }  
+
+ }
+
+
 
 /* Espaço para todos os projetos*/
 .projetos{
