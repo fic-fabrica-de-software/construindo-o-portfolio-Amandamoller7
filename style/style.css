@@ -13,13 +13,14 @@ font-family: Georgia, 'Times New Roman', Times, serif;
    display: flex;
    justify-content: center;
    align-items: center;
-   border: radius 10px; 
+   border-radius:  10px; 
    width: 39%;
    height: 40%;
 }
 .x{
   width: 28px;
   height: 28px;
+  right: 10px;
 }
 
 .lupa{
@@ -28,9 +29,9 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     height: 42px;
 }
 
-.textobarra{
-    float: left;
-    background-color: transparent;
+#textobarra{
+   float: left;
+   background-color: transparent;
    font-size: 50px;
    border: none;
    height: 55px;
