@@ -58,28 +58,43 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     width: 1600px;
     height:900px;
     padding-left: 20%;
+    border-style:calc(5px);
+    
 }
+
 
 .neuronio1{
     position: absolute;
     width: 150px;
     height: 90px;
     top:170px;
-    left: 750px;
-    animation: go-back 2s infinite alternate-reverse;
+    left: 790px;
+    animation: go-back 4s infinite alternate-reverse;
    
 }
-/*Animando o neuronio
+/*Animando o neuronio */
  @keyframes go-back{
  from{
-    transform: translateX(50px);    
+    transform: translateX(30px);    
  }  
  to{
-    transform: translateY(30px)
+    transform: translateY(60px)
+   
  }  
 
+
  }
- */
+
+
+.neuronio2{
+    position: absolute;
+    width: 150px;
+    height: 90px;
+    top:220px;
+    left: 890px;
+    animation: girar 15s infinite alternate-reverse;
+  
+}
 
  /*Animando o neuronio que gira*/
  @keyframes girar{
@@ -91,6 +106,43 @@ font-family: Georgia, 'Times New Roman', Times, serif;
  }  
 
  }
+
+
+
+
+.neuronio3{
+    position: absolute;
+    width: 150px;
+    height: 90px;
+    top:350px;
+    left: 890px;
+    animation: diagonal 7s infinite alternate-reverse; 
+
+}
+/*Animando o neuronio */
+ @keyframes diagonal{
+ from{
+    transform: translateX(20px);    
+ }  
+ to{
+    transform: translateY(15px)
+   
+ }  
+
+
+ }
+
+
+
+.neuronio4{
+    position: absolute;
+    width: 150px;
+    height: 90px;
+    top:335px;
+    left: 790px;
+    animation: girar 10s infinite alternate;
+   
+}
 
 
 
