@@ -123,12 +123,14 @@ font-family: Georgia, 'Times New Roman', Times, serif;
  }
 
 
-.neuronio2{
+.N-Skils{
     position: absolute;
-    width: 9%;
-    height: 7%;
+    width: 6%;
+    height: 8%;
     top:25%;
     left: 60%;
+       border-radius: 99%;
+    background-color: #adacad52;
     animation: girar 15s infinite alternate-reverse;
   
 }
@@ -136,10 +138,12 @@ font-family: Georgia, 'Times New Roman', Times, serif;
  /*Animando o neuronio que gira*/
  @keyframes girar{
     from{
-    transform: rotate(0deg);    
+    transform: rotate(0deg);   
+    box-shadow: 0 0 50px 2px #b387b4;   
  }  
  to{
-    transform: rotate(360deg)
+    transform: rotate(360deg);
+     box-shadow: 0 0 50px 2px #f5f4f1; 
  }  
 
  }
@@ -147,13 +151,14 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 
 
-.neuronio3{
+.N-Projetos{
     position: absolute;
-    width: 9%;
-    height: 7%;
+    width: 6%;
+    height: 8%;
     top:40%;
     left: 55%;
-    border-radius: 70%;
+    border-radius: 99%;
+    background-color: #adacad52;
     animation: diagonal 7s infinite alternate-reverse; 
 
 }
@@ -161,11 +166,11 @@ font-family: Georgia, 'Times New Roman', Times, serif;
  @keyframes diagonal{
  from{
     transform: translateX(20px); 
-    box-shadow: 0 0 20px 2px #b387b4;   
+    box-shadow: 0 0 50px 2px #b387b4;   
  }  
  to{
     transform: translateY(15px);
-    box-shadow: 0 0 20px 2px #f5f4f1; 
+    box-shadow: 0 0 50px 2px #f5f4f1; 
    
  }  
 
