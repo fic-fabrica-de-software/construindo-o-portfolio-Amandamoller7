@@ -18,15 +18,18 @@ font-family: Georgia, 'Times New Roman', Times, serif;
    height: 10%;
 }
 .x{
-  width: 24px;
-  height: 24px;
-  right: 10px;
+ position: absolute;
+  width: 1%;
+  height: 2%;
+  right: 30%;
 }
 
 .lupa{
+    position: absolute;
     float: left;
-    width: 39px;
-    height: 39px;
+    width: 1,9%;
+    height: 3%;
+    left: 31%;
 }
 
 #textobarra{
@@ -54,7 +57,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 @keyframes cursor {
-  from { border-color: rgb(255, 255, 255) }
+  from { border-color:  #ffa4b1}
   to { border-color: transparent }
 }
 
@@ -75,32 +78,34 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .fundo{
     padding-top: 7%;
-    width: 1600px;
-    height:900px;
-    padding-left: 20%;
-    border-style:calc(5px);
-    animation: go-back2 10s infinite alternate-reverse;
+    width: 100%;
+    height:80%;
+    padding-right: 5%;
+    padding-left: 6%;
+    animation: go-back2 2s;
 }
+
+.fundo :hover{
+    transform: rotate (90deg);
+}
+    
 /*Animando o neuronio */
  @keyframes go-back2{
  from{
-    transform: translateX(10px);    
+    transform: translateX(30%);    
  }  
  to{
-    transform: translateY(10px)
-   
- }  
-
+    transform: translateY(0%);
 
  }
-
+ }
 
 .neuronio1{
     position: absolute;
-    width: 150px;
-    height: 90px;
-    top:170px;
-    left: 790px;
+    width: 3%;
+    height: 2%;
+    top:3%;
+    left: 3%;
     animation: go-back 4s infinite alternate-reverse;
    
 }
@@ -120,10 +125,10 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 .neuronio2{
     position: absolute;
-    width: 150px;
-    height: 90px;
-    top:220px;
-    left: 900px;
+    width: 9%;
+    height: 7%;
+    top:25%;
+    left: 60%;
     animation: girar 15s infinite alternate-reverse;
   
 }
@@ -144,38 +149,27 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 .neuronio3{
     position: absolute;
-    width: 150px;
-    height: 90px;
-    top:330px;
-    left: 920px;
+    width: 9%;
+    height: 7%;
+    top:40%;
+    left: 55%;
+    border-radius: 70%;
     animation: diagonal 7s infinite alternate-reverse; 
 
 }
 /*Animando o neuronio */
  @keyframes diagonal{
  from{
-    transform: translateX(20px);    
+    transform: translateX(20px); 
+    box-shadow: 0 0 20px 2px #b387b4;   
  }  
  to{
-    transform: translateY(15px)
+    transform: translateY(15px);
+    box-shadow: 0 0 20px 2px #f5f4f1; 
    
  }  
 
-
  }
-
-
-
-.neuronio4{
-    position: absolute;
-    width: 150px;
-    height: 90px;
-    top:350px;
-    left: 790px;
-    animation: girar 10s infinite alternate;
-   
-}
-
 
 
 /* Espaço para todos os projetos*/
