@@ -79,26 +79,13 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 .fundo{
     padding-top: 7%;
     width: 100%;
-    height:80%;
+    height: 80%;
     padding-right: 5%;
     padding-left: 6%;
-    animation: go-back2 2s;
+    transform: translateX(30%);
+    transition: transform 0.5s ease; /* adiciona suavidade */ 
 }
 
-.fundo :hover{
-    transform: rotate (90deg);
-}
-    
-/*Animando o neuronio */
- @keyframes go-back2{
- from{
-    transform: translateX(30%);    
- }  
- to{
-    transform: translateY(0%);
-
- }
- }
 
 .neuronio1{
     position: absolute;
@@ -129,26 +116,16 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     height: 8%;
     top:25%;
     left: 60%;
-       border-radius: 99%;
-    background-color: #adacad52;
-    animation: girar 15s infinite alternate-reverse;
-  
+    border-radius: 99%;  
+    box-shadow: 0 0 50px 2px #f5f4f1;
+    opacity: 0;
+    transition: opacity 0.3s ease; /* Suaviza a animação */
 }
 
- /*Animando o neuronio que gira*/
- @keyframes girar{
-    from{
-    transform: rotate(0deg);   
-    box-shadow: 0 0 50px 2px #b387b4;   
- }  
- to{
-    transform: rotate(360deg);
-     box-shadow: 0 0 50px 2px #f5f4f1; 
- }  
 
- }
-
-
+.N-Skils:hover {
+  opacity: 1; /* Torna visível ao passar o mouse */
+}
 
 
 .N-Projetos{
@@ -158,25 +135,9 @@ font-family: Georgia, 'Times New Roman', Times, serif;
     top:40%;
     left: 55%;
     border-radius: 99%;
-    background-color: #adacad52;
-    animation: diagonal 7s infinite alternate-reverse; 
-
-}
-/*Animando o neuronio */
- @keyframes diagonal{
- from{
-    transform: translateX(20px); 
-    box-shadow: 0 0 50px 2px #b387b4;   
- }  
- to{
-    transform: translateY(15px);
     box-shadow: 0 0 50px 2px #f5f4f1; 
    
- }  
-
- }
-
-
+}
 /* Espaço para todos os projetos*/
 .projetos{
   
