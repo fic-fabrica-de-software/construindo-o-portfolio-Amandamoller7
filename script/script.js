@@ -1,7 +1,13 @@
-/*Movendo o fundo quando o mouse passa sobre ele*/
-const fundo = document.getElementById('fundo');
+document.addEventListener('DOMContentLoaded', () => {
+  const fundo = document.querySelector('.fundo');
 
-fundo.addEventListener('mouseenter', () => {
-  fundo.style.transform = 'translateX(0)'; // posição final
-  fundo.style.transition = 'transform 0.5s ease'; // animação suave
+  if (!fundo) return;
+
+  fundo.addEventListener('mouseenter', () => {
+    fundo.style.transform = 'translateX(0)';
+  });
+
+  fundo.addEventListener('mouseleave', () => {
+    fundo.style.transform = 'translateX(30%)';
+  });
 });
