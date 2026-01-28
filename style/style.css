@@ -2,16 +2,46 @@ body{
     padding: 0;
     margin: 0;
     border: 0;
-    background-color: black;
+    background-image: linear-gradient(#fffdfd, #e3b7e8);
     color: whitesmoke;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-attachment: fixed;
 }
 
+.name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: rgb(34, 33, 33);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    
+}
 
 .botao{
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 10px;
-    padding: 30px;
+    margin: 100px;
+    padding: 10px;
+    color: black;
+    background-color: #fffdfd;
+    border-radius: 50px;
+}
+
+.espaco{
+    padding: 0;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.row{
+    border-radius: 10px;
+    border: 1px solid rgb(81, 81, 166);
+}
+.col{
+    display: flex;
+    justify-content: center;
+    align-items:center
 }
