@@ -1,3 +1,17 @@
 |Body{
+    padding: 0%;
+    margin: 0%;
+    border: 0%;
     background-color: black;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.botão{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 10%;
+    padding: 30%;
 }
