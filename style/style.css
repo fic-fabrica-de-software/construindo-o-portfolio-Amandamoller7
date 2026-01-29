@@ -2,8 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: linear-gradient(#fffdfd, #e3b7e8);
-    background-attachment: fixed;
+    background-color: rgb(37, 28, 89);
     color: #222;
 }
 
@@ -11,15 +10,15 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #ffffff;
-    color: #222;
+    background-color: #fff6f6;
+    color: #000000;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 1rem;
 }
 
 .botao {
     margin: 3rem auto;
-    padding: 2rem;
+    padding: 3rem;
     background-color: #fffdfd;
     border-radius: 2rem;
     max-width: 900px;
